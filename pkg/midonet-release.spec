@@ -18,7 +18,8 @@ Source4:        midonet.repo
 Source5:        80-midonet.preset
 
 BuildArch:     noarch
-Requires:      epel-release >= 6
+Requires:      epel-release >= 7
+Requires:      redhat-release >= 7
 
 %description
 This package contains the Midonet repository and repositories for its
