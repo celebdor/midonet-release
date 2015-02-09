@@ -1,0 +1,6 @@
+[midonet-misc]
+name=MidoNet misc
+baseurl=http://repo.midonet.org/misc/RHEL/$releasever/misc/
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-MIDONET-2015.01

@@ -1,0 +1,15 @@
+# OS
+disable firewalld.service
+disable iptables.service
+disable NetworkManager.service
+enable network.service
+
+
+# OSt
+disable neutron-l3-agent.service
+
+
+# MidoNet
+enable cassandra.service
+enable zookeeper.service
+enable tomcat.service

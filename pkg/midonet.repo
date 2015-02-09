@@ -1,0 +1,20 @@
+[midonet-2015-01]
+name=MidoNet
+baseurl=http://repo.midonet.org/midonet/v2015.01/RHEL/$releasever/stable/
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-MIDONET-2015.01
+
+[midonet-2015-01-testing]
+name=MidoNet testing
+baseurl=http://repo.midonet.org/midonet/v2015.01/RHEL/$releasever/testing/
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-MIDONET-2015.01
+
+[midonet-2015-01-unstable]
+name=MidoNet unstable
+baseurl=http://repo.midonet.org/midonet/v2015.01/RHEL/$releasever/unstable/
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-MIDONET-2015.01
